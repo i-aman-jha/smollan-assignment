@@ -175,7 +175,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 10.0),
       child: Row(
-        spacing: 6,
+        spacing: 4,
         children: [
           Expanded(
             child: ElevatedButton(

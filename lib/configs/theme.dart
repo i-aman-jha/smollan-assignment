@@ -10,12 +10,14 @@ ThemeData lightTheme = ThemeData.light().copyWith(
   ),
   elevatedButtonTheme: ElevatedButtonThemeData(
     style: ElevatedButton.styleFrom(
+        padding: EdgeInsets.all(0),
         backgroundColor: Colors.blue,
         foregroundColor: Colors.white,
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(8))),
   ),
   outlinedButtonTheme: OutlinedButtonThemeData(
     style: OutlinedButton.styleFrom(
+      padding: EdgeInsets.all(0),
       foregroundColor: Colors.black,
       side: BorderSide(color: Colors.black),
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(8)),
@@ -33,6 +35,7 @@ ThemeData darkTheme = ThemeData.dark().copyWith(
   ),
   elevatedButtonTheme: ElevatedButtonThemeData(
     style: ElevatedButton.styleFrom(
+        padding: EdgeInsets.all(0),
         backgroundColor: Colors.blue,
         foregroundColor: Colors.white,
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(8))),
